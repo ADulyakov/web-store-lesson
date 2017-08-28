@@ -109,6 +109,24 @@ header .top-header .phones-list li + li{
 header .top-header .phones-list li span.custom-icon{
     margin-right: 10px;
 }
+header .top-header .social-nav
+header .bottom-header{
+    padding: 42px 0px;
+}
+header .bottom-header .header-nav li + li{
+    margin-left: 40px;
+
+}
+header .header-nav a{
+    font-family: 'Harmonia_black';
+    font-size: 16px;
+    font-weight: 300;
+    color: #495662;
+}
+header .header-nav a:hover{
+    color: #ff5912;
+    text-decoration: none;
+}
 .items-carousel {
     min-height: 650px;
     background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
@@ -116,5 +134,7 @@ header .top-header .phones-list li span.custom-icon{
 }
 /* DEFAULT COMPONENT END */
 /* ALL STYLES START */
+/* HEADER STYLES START */
 
+/* HEADER STYLES END */
 /* ALL STYLES END*/
