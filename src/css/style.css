@@ -62,6 +62,9 @@ button{
 .title.big{
     font-size: 52px;
 }
+.small-title{
+    font: 600 18px "Harmonia_regular", sans-serif;
+}
 .subtitle{
     display: block;
     font-size: 16px;
@@ -85,11 +88,21 @@ button{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 header .top-header {
     border-bottom: 1px solid #edeff1;
     padding: 20px  0px;
 }
+header .bottom-header{
+    padding: 42px 0px;
+}
+.items-carousel {
+    min-height: 650px;
+    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
+    margin-bottom: 60px;
+}
+/* DEFAULT COMPONENT END */
+/* ALL STYLES START */
+/* HEADER STYLES START */
 header .top-header .phones-list li + li{
     margin-left: 20px;
 }
@@ -98,9 +111,6 @@ header .top-header .phones-list li span.custom-icon{
 }
 header .top-header .social-nav a + a{
     margin-left: 20px;
-}
-header .bottom-header{
-    padding: 42px 0px;
 }
 header .bottom-header .header-nav{
     margin-left: 80px;
@@ -137,14 +147,49 @@ header .bottom-header .user-nav .circle-count{
     top: -22px;
     right: 2px;
 }
-.items-carousel {
-    min-height: 650px;
-    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
-    margin-bottom: 60px;
-}
-/* DEFAULT COMPONENT END */
-/* ALL STYLES START */
-/* HEADER STYLES START */
-
 /* HEADER STYLES END */
+/* MAIN STYLES START */
+/* items-carousel styles start */
+.text-item span{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.price-wrapper{
+    font: 600 18px "Harmonia_regular", sans-serif;
+}
+.price-wrapper ul li + li{
+    margin-left: 30px;
+}
+.price-wrapper ul li a:hover{
+    text-decoration: none;
+}
+/* items-carousel styles end */
+/* new-items start */
+.item .item-title {
+    font-weight: 700;
+    margin-top: 30px;
+}
+.item .item-title a:hover{
+    text-decoration: none;
+}
+.item .item-price{
+    margin-top: 30px;
+}
+/* new-items end */
+/* load-more start */
+.load-more{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: center;
+    background-color: #fff;
+}
+.circle {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: #ff5912;
+    border-radius: 50%;
+}
+/* load-more end */
+/* MAIN STYLES END */
 /* ALL STYLES END*/
