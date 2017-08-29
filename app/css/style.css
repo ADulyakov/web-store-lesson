@@ -41,6 +41,7 @@ button{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
 }
 .align-center{
     -webkit-box-align: center;
@@ -109,23 +110,47 @@ header .top-header .phones-list li + li{
 header .top-header .phones-list li span.custom-icon{
     margin-right: 10px;
 }
-header .top-header .social-nav
+header .top-header .social-nav a + a{
+    margin-left: 20px;
+}
 header .bottom-header{
     padding: 42px 0px;
 }
+header .bottom-header .header-nav{
+    margin-left: 80px;
+}
 header .bottom-header .header-nav li + li{
     margin-left: 40px;
-
 }
-header .header-nav a{
-    font-family: 'Harmonia_black';
+header .bottom-header .header-nav a{
     font-size: 16px;
     font-weight: 300;
     color: #495662;
 }
-header .header-nav a:hover{
+header .bottom-header .header-nav a:hover{
     color: #ff5912;
     text-decoration: none;
+}
+header .bottom-header .user-nav{
+    margin-left: auto;
+    position: relative;
+}
+header .bottom-header .user-nav li + li{
+    margin-left: 30px;
+}
+header .bottom-header .user-nav .circle-count{
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    line-height: 20px;
+    background-color: #34404b;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    top: -22px;
+    right: 2px;
 }
 .items-carousel {
     min-height: 650px;
