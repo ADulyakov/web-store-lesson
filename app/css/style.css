@@ -171,6 +171,15 @@ header .bottom-header .user-nav .circle-count{
     top: -22px;
     right: 2px;
 }
+.icon-search-ic:hover{
+    background-position: -81px 0px;
+}
+.icon-user-ic:hover{
+    background-position: 0px -59px;
+}
+.icon-cart-ic:hover{
+    background-position: -20px -59px;
+}
 /* HEADER STYLES END */
 /* MAIN STYLES START */
 /* items-carousel styles start */
