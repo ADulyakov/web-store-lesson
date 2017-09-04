@@ -39,6 +39,9 @@ label{
 }
 /* RESET END */
 /* DEFAULT CLASSES START */
+.btn-default {
+    border-color: #ff5912;
+}
 .btn-default:hover{
     border-color: #ff5912;
     background-color: #ff5912;
@@ -472,6 +475,12 @@ header .bottom-header .user-nav .circle-count{
 }
 /* subscribe end */
 /* FOOTER STYLES START */
+.footerLogo-block{
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+}
 .footerLogo-img{
     margin-bottom: 22px;
 }
@@ -525,6 +534,9 @@ header .bottom-header .user-nav .circle-count{
     line-height: 1.8em;
     color: #ff5912;
     margin-bottom: 20px;
+}
+.footerPayment-block ul li + li{
+    margin-left: 8px;
 }
 /* FOOTER STYLES END*/
 /* CATEGORY STYLES START */
