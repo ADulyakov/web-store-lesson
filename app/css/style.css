@@ -65,6 +65,11 @@ label{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+.justify-sp-around{
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
 .orange-text{
     color: #ff5912;
 }
@@ -421,42 +426,45 @@ header .bottom-header .user-nav .circle-count{
 }
 /* winner-kit end */
 /* best-sales start */
-
 .item-mini-img {
     padding: 0px 20px;
 }
-.item-mini-rating-price{
+.item-mini-info{
     position: relative;
 }
 .item-mini-title{
     font-family: 'Harmonia_bold';
-    padding-bottom: 20px;
-    top:0;
+    margin: 20px 0px 35px;
 }
 .item-mini-description{
     padding-left: 20px;
+    height: 118px;
 }
 .flex-container:active{
     color: #ff5912;
 }
-.item-mini:hover .item-mini-stars, .item-mini-price{
+.item-mini:hover .item-mini-stars{
+    display: none;
+}
+.item-mini:hover .item-mini-price{
     display: none;
 }
 .item-mini-stars{
     font-size: 16px;
 }
 .item-mini-price{
+    font-family: 'Harmonia_bold';
     font-size: 16px;
 }
-.add-to-cart-hover {
+.add-to-cart-hover{
     position: absolute;
     opacity: 0;
     font-family: 'Harmonia_semibold';
     font-size: 16px;
     width: 100%;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    cursor: pointer;
+    margin-top: 10px;
+
 }
 .item-mini:hover .add-to-cart-hover{
     opacity: 1;
@@ -522,6 +530,7 @@ header .bottom-header .user-nav .circle-count{
     -webkit-border-radius: 50%;
             border-radius: 50%;
     margin-right: 10px;
+    margin-bottom: 1px;
 }
 .footerMenu span:hover,
 .footerMenu span:hover::before{
