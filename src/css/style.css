@@ -458,7 +458,11 @@ header .bottom-header .user-nav .circle-count{
     flex-grow: 2;
 }
 .footerLogo-img{
-    margin-bottom: 22px;
+    margin-bottom: 10px;
+}
+.copyRight-info{
+    font-size: 14px;
+    line-height: 2.1em;
 }
 .footerMenu{
     flex-direction: column;
