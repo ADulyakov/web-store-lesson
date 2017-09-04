@@ -406,6 +406,23 @@ header .bottom-header .user-nav .circle-count{
     position: absolute;
     left:0;
 }
+.sales-value{
+    color: #fff;
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.sales-value span:first-child{
+    font-family: 'Harmonia_italic';
+    font-size: 12px;
+}
+.sales-value span:last-child{
+    font-family: 'Harmonia_black';
+    font-size: 18px;
+}
 .sale-text-title{
     display: block;
     font-family: 'Harmonia_black';
@@ -416,13 +433,23 @@ header .bottom-header .user-nav .circle-count{
     font-family: 'Harmonia_black';
     font-size: 32px;
 }
-.kit-right-text {
+.winner-kit-right {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 60px;
+}
+.kit-right-text{
     font:16px "Harmonia_regular", sans-serif;
 }
-.winner-kit-right .kit-size{
-    padding-top: 15px;
+.kit-size {
+padding-top: 15px;
+}
+.kit-size span{
     letter-spacing: 0.6em;
-
 }
 /* winner-kit end */
 /* best-sales start */
