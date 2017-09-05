@@ -555,6 +555,37 @@ padding-top: 15px;
     color: #ff5912;
     margin-bottom: 35px;
 }
+.range{
+    margin-top: 40px;
+}
+.min-value, .max-value{
+    position: absolute;
+    top: -25px;
+    font-size: 14px;
+    color: #34404b;
+    font-family: 'Harmonia_semibold';
+    transform: translateX(-50%);
+    left: 50%;
+}
+.ui-widget.ui-widget-content{
+    background-color: #edf0f2;
+    border: none;
+}
+.ui-slider .ui-slider-handle{
+    border-radius: 50%;
+    border: none;
+    background-color: #34404b;
+
+}
+.ui-slider-range{
+    background-color: #34404b;
+}
+.range-input-reoup{
+    padding-top: 40px;
+}
+.range-input-reoup input{
+    background-color: #edf0f2;
+}
 /* category-wrap end *
 /* CATEGORY STYLES END */
 /* PRODUCT STYLE START */
