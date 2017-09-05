@@ -590,8 +590,14 @@ padding-top: 15px;
 /* CATEGORY STYLES END */
 /* PRODUCT STYLE START */
 .product-wrap{
-
+    padding: 100px 125px ;
+    background-color: #fff;
 }
+
+.product-carousel {
+    width: 330px;
+}
+
 /* PRODUCT STYLE END */
 /* MAIN STYLES END */
 /* ALL STYLES END*/
