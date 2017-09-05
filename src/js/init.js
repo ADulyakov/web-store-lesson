@@ -74,4 +74,14 @@ $( function() {
         });
     });
 
+
+    $(window).load(function() {
+        $('.item-flexslider').flexslider({
+            animation: "slide",
+            controlNav: "thumbnails"
+        });
+    });
+    //formstayler init
+        $('.custom-number').styler();
+
 } );
