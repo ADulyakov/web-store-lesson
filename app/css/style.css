@@ -73,6 +73,9 @@ label{
 .orange-text{
     color: #ff5912;
 }
+.light-gray-text{
+    color: #e9ecf3;
+}
 .red-bg{
     background-color: #e12e3f;
 }
@@ -94,6 +97,7 @@ label{
 .orange-bg{
     background-color: #ff5912;
 }
+
 /* DEFAULT CLASSES END */
 /* DEFAULT COMPONENT START */
 .custom-icon{
@@ -108,14 +112,19 @@ label{
 .title.big{
     font-size: 52px;
 }
-.small-title{
-    font: 600 18px "Harmonia_regular", sans-serif;
-}
+
 .subtitle{
-    display: block;
-    font-size: 16px;
-    color: #495662;
+    font-family: 'Harmonia_semibold';
+    font-size: 18px;
+    line-height: 1.6em;
     margin-bottom: 70px;
+}
+.subtext{
+    font-family: 'Harmonia_regular';
+    font-size: 16px;
+    line-height: 1.8em;
+    display: block;
+    color: #495662;
 }
 .default-section{
     padding: 60px 0px;
@@ -164,7 +173,10 @@ label{
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
-
+.item-card-info{
+    font-family: 'Harmonia_bold';
+    font-size: 18px;
+}
 .item-mini{
     background-color: #fff;
     padding: 20px 20px;
@@ -172,11 +184,9 @@ label{
     text-align: center;
     position: relative;
 }
-
 .subscribe-form{
     padding: 37px 42px;
 }
-
 .subscribe-input-group{
     margin-right: 30px;
 }
@@ -270,6 +280,9 @@ header .bottom-header .user-nav .circle-count{
     line-height: 30px;
     margin-bottom: 15px;
 }
+.text-item p{
+    padding-bottom: 60px;
+}
 .price-wrapper{
     font: 600 18px "Harmonia_regular", sans-serif;
 }
@@ -278,6 +291,9 @@ header .bottom-header .user-nav .circle-count{
 }
 /* item-carousel styles end */
 /* new-item start */
+.new-item-subtext{
+    margin-bottom: 80px;
+}
 .item-description{
     padding: 0px 40px;
 }
@@ -386,23 +402,23 @@ header .bottom-header .user-nav .circle-count{
 .winner-kit-left {
     padding: 10px 60px;
 }
-.sale-section{
+.sale-block{
     position: relative;
 }
-.sale-section > div{
+.sale-block > div{
     display: inline-block;
     width: 50px;
     height: 60px;
 }
-.sale-section div:first-child{
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-}
-.sale-section div:last-child{
+.sale-block div:first-child{
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
+}
+.sale-block div:last-child{
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     position: absolute;
     left:0;
 }
@@ -428,6 +444,13 @@ header .bottom-header .user-nav .circle-count{
     font-family: 'Harmonia_black';
     text-transform: uppercase;
     font-size: 22px;
+    color: #34404b;
+}
+.sale-text-subtitle{
+    font-family: 'Harmonia_regular';
+    font-size: 12px;
+    line-height: 2.5em;
+    color: #495662;
 }
 .sale-price-section{
     font-family: 'Harmonia_black';
@@ -453,6 +476,9 @@ padding-top: 15px;
 }
 /* winner-kit end */
 /* best-sales start */
+.best-sales-subtext{
+    margin-bottom: 80px;
+}
 .item-mini-img {
     padding: 0px 20px;
 }
@@ -508,20 +534,23 @@ padding-top: 15px;
     font-family: 'Harmonia_italic';
     font-size: 14px;
 }
+.subscribe-form form>button.btn{
+    -webkit-border-radius: 0;
+            border-radius: 0;
+}
 /* subscribe end */
 /* FOOTER STYLES START */
 .footerLogo-block{
-    -webkit-box-flex: 2;
-    -webkit-flex-grow: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    margin-right: auto;
 }
 .footerLogo-img{
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 .copyRight-info{
+    font-family: 'Harmonia_regular';
     font-size: 14px;
     line-height: 2.1em;
+    color: #28313b;
 }
 .footerMenu{
     -webkit-box-orient: vertical;
