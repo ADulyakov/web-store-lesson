@@ -430,6 +430,7 @@ header .bottom-header .user-nav .circle-count{
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 6px;
 }
 .sales-value span:first-child{
     font-family: 'Harmonia_italic';
@@ -438,6 +439,7 @@ header .bottom-header .user-nav .circle-count{
 .sales-value span:last-child{
     font-family: 'Harmonia_black';
     font-size: 18px;
+    top: 0;
 }
 .sale-text-title{
     display: block;
@@ -650,6 +652,15 @@ padding-top: 15px;
             transform: translateX(-50%);
     left: 50%;
 }
+.ui-slider-horizontal {
+    height: .4em;
+}
+.ui-widget {
+    font-size: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    top: -0.4em;
+}
 .ui-widget.ui-widget-content{
     background-color: #edf0f2;
     border: none;
@@ -659,7 +670,9 @@ padding-top: 15px;
             border-radius: 50%;
     border: none;
     background-color: #34404b;
-
+}
+.ui-slider .ui-slider-handle:focus{
+    outline: none;
 }
 .ui-slider-range{
     background-color: #34404b;
