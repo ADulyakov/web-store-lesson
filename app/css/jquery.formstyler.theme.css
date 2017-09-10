@@ -37,13 +37,6 @@
 	top: auto;
 	bottom: 0;
 }
-.jq-number__spin:hover {
-	/*background: linear-gradient(#F6F6F6, #E6E6E6);*/
-}
-.jq-number__spin:active {
-	/*background: #F5F5F5;*/
-	/*box-shadow: inset 1px 1px 3px #DDD;*/
-}
 .jq-number__spin:after {
 	content: '';
 	position: absolute;
@@ -55,13 +48,6 @@
 .jq-number__spin.minus:after {
 	top: 5px;
 }
-.jq-number__spin.minus:hover:after {
-	/*border-top-color: #000;*/
-}
-.jq-number__spin.plus:hover:after {
-	/*border-bottom-color: #000;*/
-}
-
 .jq-number__spin {
 	left: 0;
 	height: 35px;

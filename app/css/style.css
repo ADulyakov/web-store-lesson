@@ -28,6 +28,13 @@ input, textarea, button{
     outline: none;
     border: none;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
 textarea{
     resize: vertical;
 }
@@ -291,6 +298,9 @@ header .bottom-header .user-nav .circle-count{
 /* HEADER STYLES END */
 /* MAIN STYLES START */
 /* item-carousel styles start */
+.item-flexslider{
+    position:relative;
+}
 .text-item span{
     line-height: 30px;
     margin-bottom: 15px;
@@ -766,9 +776,8 @@ padding-top: 15px;
     margin-left: 30px;
 }
 .order-now input.order-now-btn{
-    /*font-family: 'Harmonia_semibold';*/
     font-size: 18px;
-    /*padding: 18px 29px;*/
+
 }
 .product-item{
     padding-top: 117px;

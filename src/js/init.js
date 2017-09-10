@@ -77,8 +77,7 @@ $( function() {
 
     $(window).load(function() {
         $('.item-flexslider').flexslider({
-            animation: "slide",
-            controlNav: "thumbnails"
+            animation: "slide"
         });
     });
     //formstayler init
