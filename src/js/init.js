@@ -74,7 +74,7 @@ $( function() {
         });
     });
 
-
+    //flexslider home
     $(window).load(function() {
         $('.item-flexslider').flexslider({
             animation: "slide"
@@ -82,5 +82,12 @@ $( function() {
     });
     //formstayler init
         $('.custom-number').styler();
+
+    //slik nav init
+        $('.header-nav').slicknav({
+            appendTo: 'header .bottom-header .flex-container.align-center.justify-sp-between',
+            label: ''
+        });
+
 
 } );

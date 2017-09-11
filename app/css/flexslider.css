@@ -227,7 +227,7 @@ html[xmlns] .flexslider .slides {
 .item-flexslider .flex-control-nav{
   bottom: auto;
   top: 50%;
-  left: -65px;
+  left: 0;
   width: auto;
   -webkit-transform: translateY(-50%) ;
       -ms-transform: translateY(-50%) ;
