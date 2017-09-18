@@ -30,7 +30,7 @@
 </head>
 <body>
 <!-- HEADER START -->
-<header>
+<header class="position-relative">
     <div class="top-header">
         <div class="container">
             <div class="flex-container justify-sp-between">
@@ -74,7 +74,7 @@
                                 <span class="custom-icon icon-user-ic"></span>
                             </a>
                         </li>
-                        <li class="flex-container align-center">
+                        <li class="flex-container align-center position-relative">
                             <span class="circle-count">5</span>
                             <a href=""><span class="custom-icon icon-cart-ic"></span></a>
                         </li>
@@ -90,74 +90,83 @@
     <section class="items-carousel flex-container align-center">
         <div class="container">
             <div class="item-flexslider">
-                <ul class="slides">
-                    <li>
-                        <div class="items-carousel-description">
-                            <div class="title big orange-text">
-                                <span>FULL WINTER KIT</span>
-                            </div>
-                            <div class="text-item">
-                                <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
-                                <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            </div>
-                            <div class="price-wrapper">
-                                <ul class="flex-container align-center">
-                                    <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
-                                    <li class="flex-container align-center">
-                                        <a href="">
-                                            <span class="custom-icon icon-cart-hover-ic"></span>
-                                            <span class="orange-text">Order Now</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="items-carousel-description">
-                            <div class="title big orange-text">
-                                <span>FULL WINTER KIT</span>
-                            </div>
-                            <div class="text-item">
-                                <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
-                                <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            </div>
-                            <div class="price-wrapper">
-                                <ul class="flex-container align-center">
-                                    <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
-                                    <li class="flex-container align-center">
-                                        <a href="">
-                                            <span class="custom-icon icon-cart-hover-ic"></span>
-                                            <span class="orange-text">Order Now</span>
-                                        </a>
-                                    </li>
-                                </ul>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="items-carousel-description">
+                                <div class="title big orange-text">
+                                    <span>FULL WINTER KIT</span>
+                                </div>
+                                <div class="text-item">
+                                    <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
+                                    <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                </div>
+                                <div class="price-wrapper">
+                                    <ul class="flex-container align-center">
+                                        <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
+                                        <li class="flex-container align-center">
+                                            <a href="">
+                                                <span class="custom-icon icon-cart-hover-ic"></span>
+                                                <span class="orange-text">Order Now</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="items-carousel-description">
-                            <div class="title big orange-text">
-                                <span>FULL WINTER KIT</span>
-                            </div>
-                            <div class="text-item">
-                                <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
-                                <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            </div>
-                            <div class="price-wrapper">
-                                <ul class="flex-container align-center">
-                                    <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
-                                    <li class="flex-container align-center">
-                                        <a href="">
-                                            <span class="custom-icon icon-cart-hover-ic"></span>
-                                            <span class="orange-text">Order Now</span>
-                                        </a>
-                                    </li>
-                                </ul>
+                        <div class="item">
+                            <div class="items-carousel-description">
+                                <div class="title big orange-text">
+                                    <span>FULL WINTER KIT</span>
+                                </div>
+                                <div class="text-item">
+                                    <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
+                                    <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                </div>
+                                <div class="price-wrapper">
+                                    <ul class="flex-container align-center">
+                                        <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
+                                        <li class="flex-container align-center">
+                                            <a href="">
+                                                <span class="custom-icon icon-cart-hover-ic"></span>
+                                                <span class="orange-text">Order Now</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                        <div class="item">
+                            <div class="items-carousel-description">
+                                <div class="title big orange-text">
+                                    <span>FULL WINTER KIT</span>
+                                </div>
+                                <div class="text-item">
+                                    <span class="subtitle">Half Jacket + Skiny Trousers + Boot leather</span>
+                                    <p class="subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                </div>
+                                <div class="price-wrapper">
+                                    <ul class="flex-container align-center">
+                                        <li class="flex-container align-center"><span>Price: </span><span>120$</span></li>
+                                        <li class="flex-container align-center">
+                                            <a href="">
+                                                <span class="custom-icon icon-cart-hover-ic"></span>
+                                                <span class="orange-text">Order Now</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -487,7 +496,7 @@
                     </div>
                     <span class="copyRight-info">shopy c 2015 . your copy right here</span>
                 </div>
-                <div class="footer-menu-block flex-container align-center">
+                <div class="footer-menu-block flex-container">
                     <ul class="footerMenu-1">
                         <li><a href=""><span>about us</span></a></li>
                         <li><a href=""><span>contact us</span></a></li>
