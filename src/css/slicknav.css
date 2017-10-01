@@ -112,7 +112,7 @@
   left: 0;
   right: 0;
   background-color: #fff;
-  z-index: 99;
+  z-index: 110;
   text-align: right;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
 }
